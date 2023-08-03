@@ -28,6 +28,7 @@ const btnDemon = document.createElement("button");
 
 
 body.appendChild(divNames);
+
 divNames.appendChild(divNameHero);
 divNames.appendChild(divNameDemon);
 divNameHero.appendChild(nameHero);
@@ -56,9 +57,32 @@ divBtnDemon.appendChild(btnDemon);
 
 
 
+// divNames.style = `display:flex; flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:unset;align-content:flex-start;height:100vh;border`
+// divNameHero.style = `order:0;
+// flex:0 1 auto;
+// align-self:auto;
+// height:50px;
+// width:50%;
+// border:black 1px solid`
+// divNameDemon.style = `order:0;
+// flex:0 1 auto;
+// align-self:auto;
+// height:50px;
+// width:50%;
+// border:black 1px solid`
+nameHero.innerHTML = "<h3>Héroe : Javier </h3>"
+nameDemon.innerHTML = "<h3>Rey Demonio : `Enemigo`</h3>"
+// divHeroStats.innerText = "hola"
+divHeroStats.style = `border:black 1px solid;flex:0 1 auto;
+align-self:auto;
+height:50px;
+width:50%;
+display:flex;`
+// divDemonStats.style = `border:black 1px solid;flex:0 1 auto;
+// align-self:auto;
+// height:50px;
+// width:50%;`
 
-nameHero.innerText = "<h3>Héroe : Javier </h3>"
-nameDemon.innertext = "<h3>Rey Demonio : `${enemigo}`</h3>"
 
 
 
